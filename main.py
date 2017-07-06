@@ -97,7 +97,7 @@ def send_message():
    friend_choice = select_friend()
 
    original_image = raw_input("What is the name of the image?")
-   output_path = "koala.jpg"
+   output_path = "hi.jpg"
    text = raw_input("What do you want to say? ")
    # handle for case when image doesn't contain any secret message
    if len(text) > 0:
